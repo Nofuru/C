@@ -157,9 +157,6 @@ public:
     }
 };
 
-#pragma endregion
-
-#pragma region Ex3
 template <typename T> class Stack
 {
     T* stackPtr;
@@ -215,7 +212,6 @@ template <typename T> void Stack<T>::printStack()
     for (int ix = size - 1; ix >= 0; ix--)
         cout << "|" << setw(4) << stackPtr[ix] << endl;
 }
-#pragma endregion
 
 
 int main()
