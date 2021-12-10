@@ -53,4 +53,38 @@ int main()
 	cout.setf(ios::left);
 	cout.width(50); // если что-то, что выводится больше чем, указанная ширина (setw()), то пустое пространство заполнит символ заполнитель
 	cout << "123456789" << endl;
+	
+    //Зад 3
+    /*
+    cout << endl << endl << setfill('*') << setw(50) << "ex3" << endl;
+    //boolalpha, oct, dec, hex, showbase, uppercase, showpos, scientific, fixed, right, left , fill
+
+    cout.setf(ios::hex);
+    cout << 12 << endl;
+    cout.unsetf(ios::hex);
+    */
+
+
+    //Зад 4.1
+    /*
+    cout << endl << endl << setfill('*') << setw(50) << "ex4" << endl;
+    for (i = 0; i < 7; i++)
+        cout << s << endp;
+    */
+
+    //Зад 4.2
+    /*
+    cout << endl << endl << setfill('*') << setw(50) << "ex4.1" << endl;
+    for (i = 0; i < 7; i++)
+        cout << s << endp(2);
+    */
+    // work but in theory
+
+    //Зад 4.3
+    /*
+    cout << endl << endl << setfill('*') << setw(50) << "ex4.1" << endl;
+    int f = 2;
+    for (i = 0; i < 7; i++)
+        cout << s << endp(f,s);
+    */
 }
